@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="esi.js"></script>
+    </head>
+    <body>
+        <h1>ESI Test Page</h1>
+        <div><p>Hello, this is the section header</p></div>
+        <div><esi:include src="fragment1.html" /></div>
+        <div><esi:include src="fragment2.html" alt="fragment1.html" /></div>
+        <div><p>Hello, this is the section footer</p></div>
+    </body>
+</html>
