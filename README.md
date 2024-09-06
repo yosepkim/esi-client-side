@@ -1,6 +1,6 @@
 # Client ESI Parser
 
-###Original Code: https://github.com/MrSwitch/esi.
+### Original Code: https://github.com/MrSwitch/esi.
 
 This project performs what the Edge Side Includes engine on the CDN provider such as Akamai in the client side (browser) instead. That is, it looks for ESI tags in the `body` of the HTML and replaces them with appropriate content specified by the tags.  
 
